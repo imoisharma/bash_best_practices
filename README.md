@@ -6,7 +6,6 @@ This document is how I write Bash and how I'd like collaborators to write Bash w
 Keep in mind this is not for general shell scripting, these are rules specifically for Bash and can take advantage of assumptions around Bash as the interpreter. 
 
 ## Big Rules
-
  * Always double quote variables, including subshells. No naked `$` signs
    * This rule gets you pretty far. Read http://mywiki.wooledge.org/Quotes for details
  * All code goes in a function. Even if it's one function, `main`. 
