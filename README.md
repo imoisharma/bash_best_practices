@@ -103,5 +103,3 @@ if [[ "$(grep -m1 'foo' somefile)" ]]; then
   ...
 fi
 ```
-
-### More todo
